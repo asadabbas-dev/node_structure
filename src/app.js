@@ -1,7 +1,7 @@
 import express from 'express'
 import cors from 'cors';
-import ExceptionHandler from './middlewares/exception-middleware';
-import ApplicationLogger from './middlewares/logger-middleware';
+import ExceptionHandler from './middlewares/exception-middleware.js';
+import ApplicationLogger from './middlewares/logger-middleware.js';
 
 const app = express();
 app.use(cors());

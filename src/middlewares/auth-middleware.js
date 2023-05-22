@@ -1,5 +1,5 @@
-import { verifyToken } from "../utilities/helpers/jwtHelper.Utility";
-import { messages } from "../utilities/helpers/customMessage.Utility";
+import { verifyToken } from "../utilities/helpers/jwtHelper.Utility.js";
+import messages from "../utilities/helpers/customMessage.Utility.js";
 
 const Auth = async (req, res, next) => {
     let token;

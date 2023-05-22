@@ -1,4 +1,4 @@
-export const messages = {
+const messages = {
     auth: {
         invalidCredentials: "email or password is incorrect",
         tokenExpired: "Unauthorized, token is Expired",
@@ -13,3 +13,5 @@ export const messages = {
         weirdCase: "Something went wrong, kindly ask development team!"
     }
 }
+
+export default messages
