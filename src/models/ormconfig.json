@@ -1,0 +1,14 @@
+[
+  {
+    "name": "default",
+    "type": "mssql",
+    "host": "128.199.54.14",
+    "port": 1433,
+    "username": "buch-admin",
+    "password": "buch@dmin!2",
+    "database": "",
+    "extra": { "instanceName": "" },
+    "synchronize": false,
+    "entities": ["entities/*.js"]
+  }
+]

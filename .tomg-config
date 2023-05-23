@@ -1,0 +1,38 @@
+[
+  {
+    "resultsPath": "D:\\Office Projects\\Node Stuff\\Butcha\\New folder\\src\\models",
+    "pluralizeNames": true,
+    "noConfigs": false,
+    "convertCaseFile": "pascal",
+    "convertCaseEntity": "pascal",
+    "convertCaseProperty": "camel",
+    "convertEol": "CRLF",
+    "propertyVisibility": "none",
+    "lazy": false,
+    "activeRecord": false,
+    "generateConstructor": false,
+    "customNamingStrategyPath": "",
+    "relationIds": false,
+    "strictMode": "none",
+    "skipSchema": false,
+    "indexFile": false,
+    "exportType": "named"
+  },
+  {
+    "host": "128.199.54.14",
+    "port": 1433,
+    "databaseNames": [
+      "BUCHHIS"
+    ],
+    "user": "buch-admin",
+    "password": "buch@dmin!2",
+    "databaseType": "mssql",
+    "schemaNames": [
+      "dbo"
+    ],
+    "instanceName": "",
+    "ssl": true,
+    "skipTables": [],
+    "onlyTables": []
+  }
+]
